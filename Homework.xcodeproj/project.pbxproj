@@ -13,6 +13,9 @@
 		8AEC6C972B31529800E1189E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEC6C952B31529800E1189E /* Main.storyboard */; };
 		8AEC6C992B31529900E1189E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEC6C982B31529900E1189E /* Assets.xcassets */; };
 		8AEC6C9C2B31529900E1189E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEC6C9A2B31529900E1189E /* LaunchScreen.storyboard */; };
+		8AEC6CA82B34360200E1189E /* threeTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEC6CA62B34360200E1189E /* threeTab.storyboard */; };
+		8AEC6CAA2B343B4000E1189E /* books.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEC6CA92B343B4000E1189E /* books.storyboard */; };
+		8AEC6CAC2B343F0800E1189E /* anotherBooks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEC6CAB2B343F0800E1189E /* anotherBooks.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8AEC6C982B31529900E1189E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AEC6C9B2B31529900E1189E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AEC6C9D2B31529900E1189E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEC6CA72B34360200E1189E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Homework/Base.lproj/threeTab.storyboard; sourceTree = "<group>"; };
+		8AEC6CA92B343B4000E1189E /* books.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = books.storyboard; sourceTree = "<group>"; };
+		8AEC6CAB2B343F0800E1189E /* anotherBooks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = anotherBooks.storyboard; path = Homework/anotherBooks.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +65,12 @@
 				8AEC6C8F2B31529800E1189E /* AppDelegate.swift */,
 				8AEC6C912B31529800E1189E /* SceneDelegate.swift */,
 				8AEC6C932B31529800E1189E /* ViewController.swift */,
-				8AEC6C952B31529800E1189E /* Main.storyboard */,
 				8AEC6C982B31529900E1189E /* Assets.xcassets */,
+				8AEC6CA92B343B4000E1189E /* books.storyboard */,
+				8AEC6CAB2B343F0800E1189E /* anotherBooks.storyboard */,
+				8AEC6CA62B34360200E1189E /* threeTab.storyboard */,
 				8AEC6C9A2B31529900E1189E /* LaunchScreen.storyboard */,
+				8AEC6C952B31529800E1189E /* Main.storyboard */,
 				8AEC6C9D2B31529900E1189E /* Info.plist */,
 			);
 			path = Homework;
@@ -126,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AEC6C9C2B31529900E1189E /* LaunchScreen.storyboard in Resources */,
+				8AEC6CA82B34360200E1189E /* threeTab.storyboard in Resources */,
+				8AEC6CAA2B343B4000E1189E /* books.storyboard in Resources */,
+				8AEC6CAC2B343F0800E1189E /* anotherBooks.storyboard in Resources */,
 				8AEC6C992B31529900E1189E /* Assets.xcassets in Resources */,
 				8AEC6C972B31529800E1189E /* Main.storyboard in Resources */,
 			);
@@ -161,6 +173,14 @@
 				8AEC6C9B2B31529900E1189E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8AEC6CA62B34360200E1189E /* threeTab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEC6CA72B34360200E1189E /* Base */,
+			);
+			name = threeTab.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,6 +310,7 @@
 				DEVELOPMENT_TEAM = B83B58V98S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Homework/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "投影片1_6";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +339,7 @@
 				DEVELOPMENT_TEAM = B83B58V98S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Homework/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "投影片1_6";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

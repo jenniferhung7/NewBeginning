@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bn1-LN-rYH">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--scroll-->
+        <scene sceneID="JDa-IF-jR6">
+            <objects>
+                <viewController id="U7n-8j-lr1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sLh-HF-rs6">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JDK-st-xvJ">
+                                <rect key="frame" x="0.0" y="183" width="393" height="550"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="eAQ-Jh-YsP">
+                                        <rect key="frame" x="0.0" y="15" width="720" height="500"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="截圖 2023-12-18 上午10.37.56" translatesAutoresizingMaskIntoConstraints="NO" id="Rl1-Ob-Tn0">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="500"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="截圖 2023-12-18 上午10.44.48" translatesAutoresizingMaskIntoConstraints="NO" id="gIU-oB-SKx">
+                                                <rect key="frame" x="393" y="0.0" width="393" height="500"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="截圖 2023-12-18 上午10.50.07" translatesAutoresizingMaskIntoConstraints="NO" id="bNi-0v-yvx">
+                                                <rect key="frame" x="786" y="0.0" width="393" height="500"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="Mj2-Zh-sad"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.055625922979999999" green="0.52718567849999998" blue="0.19654121990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="U0V-HM-D7B"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="FH8-k9-acZ"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1179" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="練習滾動畫面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWp-6Q-rgt">
+                                <rect key="frame" x="72" y="113" width="272" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7NT-nf-PXk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="scroll" id="m0o-CT-UAT">
+                        <barButtonItem key="rightBarButtonItem" title="new" id="RVf-Lb-Bbr">
+                            <connections>
+                                <segue destination="YHd-Bc-N8y" kind="show" id="n1n-E1-A42"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XKe-8W-qaS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="549" y="-3016"/>
+        </scene>
+        <!--picture-->
+        <scene sceneID="B39-VP-eXU">
+            <objects>
+                <viewController storyboardIdentifier="picture" id="YHd-Bc-N8y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QAi-Ah-ZXL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lord's Day拷貝14" translatesAutoresizingMaskIntoConstraints="NO" id="vW3-F1-D3M">
+                                <rect key="frame" x="68" y="221" width="282" height="497"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4VA-3A-zBJ">
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="piccqq" id="s1B-Tn-Vp6"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Efn-f8-9ZA"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PPicture" image="speaker.wave.3.fill" catalog="system" id="R2D-tt-B07"/>
+                    <navigationItem key="navigationItem" title="picture" id="Hd4-Zi-hEP"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LGx-eu-LJ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1374.8091603053435" y="-3016.1971830985917"/>
+        </scene>
+        <!--scroll-->
+        <scene sceneID="0Z1-p8-t1r">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bn1-LN-rYH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="scroll" image="bookmark.circle" catalog="system" badgeValue="2" selectedImage="trash.slash.square.fill" id="IKc-Ia-qNF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vKF-7l-DmF">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="U7n-8j-lr1" kind="relationship" relationship="rootViewController" id="6A5-xR-Xfk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4uD-yf-fOi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-460" y="-3016"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Lord's Day拷貝14" width="1587" height="2245"/>
+        <image name="bookmark.circle" catalog="system" width="128" height="123"/>
+        <image name="speaker.wave.3.fill" catalog="system" width="128" height="84"/>
+        <image name="trash.slash.square.fill" catalog="system" width="128" height="114"/>
+        <image name="截圖 2023-12-18 上午10.37.56" width="282" height="246"/>
+        <image name="截圖 2023-12-18 上午10.44.48" width="253" height="401"/>
+        <image name="截圖 2023-12-18 上午10.50.07" width="440" height="443"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
